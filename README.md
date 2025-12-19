@@ -1,0 +1,2 @@
+A scalable Food Delivery Backend API built using Node.js, Express.js, and MongoDB.
+This backend handles core functionalities such as user management, authentication, product management, orders, and admin operations.
