@@ -8,12 +8,12 @@ const cookieParser = require('cookie-parser');
 
 
 dotenv.config();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 10000;
 const app = express();
 app.use(express.json());
 
 app.use(cors({
-  origin: 'http://localhost:5173',
+  origin: 'https://food-delivery-frontend-web-applicat-pi.vercel.app',
   credentials: true,}
 ));
 
