@@ -13,7 +13,7 @@ const app = express();
 app.use(express.json());
 
 app.use(cors({
-  origin: 'https://food-delivery-frontend-web-applicat-pi.vercel.app',
+  origin: ['https://food-delivery-frontend-web-applicat-pi.vercel.app', 'http://localhost:5173'],
   credentials: true,}
 ));
 
